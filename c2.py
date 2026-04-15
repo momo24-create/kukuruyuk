@@ -180,33 +180,19 @@ def get_url_info(url, token):
 def show_ansi_art():
     print("\x1b[1;34m         [ xxxxxxxxxxx ] | Welcome to Stresser Panel | =Privatetoo | Update v7.0\x1b[0m")
     print(f"""\x1b[31m
-                                           .                                                      .
-        .n                   .                 .                  n.
-  .   .dP                  dP                   9b                 9b.    .
- 4    qXb         .       dX                     Xb       .        dXp     t
-dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
-9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
- 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
-  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-    `9XXXXXXXXXXXP' `9XX'   "Privatetoo"   `XXP' `9XXXXXXXXXXXP'
-\x1b[1;37m        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
-                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
-                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
-                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
-                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
-                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
-                     `'      9XXXXXX(   )XXXXXXP      `'
-                              XXXX X.`v'.X XXXX
-                              XP^X'`b   d'`X^XX
-                              X. 9  `   '  P )X
-                              `b  `       '  d'
-                               `             '
+                        :::==== :::====  :::==== 
+                        :::     ::   === ::   ===
+                         ======     ====     ==== 
+                             ===  ===      ===    
+                        ======  ======== ========
+                          
+
                             Privatetoo  C 2\x1b[0m""")
 
 def show_main_menu():
     show_ansi_art()
     rprint(f"[cyan]" + "-" * 60)
-    rprint(f"          [bold white]OVERLOAD CONTROL PANEL - SYSTEM READY[/bold white]")
+    rprint(f"          [bold white]522 CONTROL PANEL - SYSTEM READY[/bold white]")
     rprint(f"[cyan]" + "-" * 60)
     print(f"\x1b[33m> \x1b[37mLAYER7  : SHOW METHODS ATTACK (URL)")
     print(f"\x1b[33m> \x1b[37mLAYER4  : SHOW METHODS ATTACK (IP)")
@@ -380,7 +366,7 @@ def attack_executor(cmd_list, target, metode, durasi):
             rprint(Panel(f"[bold white]Sistem: Attack {m_metode} - {m_target} selesai secara otomatis.[/bold white]", 
                          style="bold green on black", border_style="bright_green"))
             
-            kali_prefix = f"\x1b[1;34m[--(\x1b[1;37;41mroot@OVERLOADSYSTEM\x1b[0m\x1b[1;34m)-[OFF]\n\x1b[1;34m--\x1b[1;37m# \x1b[0m"
+            kali_prefix = f"\x1b[1;34m[--(\x1b[1;37;41mroot@522SYSTEM\x1b[0m\x1b[1;34m)-[OFF]\n\x1b[1;34m--\x1b[1;37m# \x1b[0m"
             sys.stdout.write(kali_prefix)
             sys.stdout.flush()
 
@@ -450,7 +436,7 @@ def main():
     while True:
         try:
             status = "ON" if status_monitor["sedang_berjalan"] else "OFF"
-            kali_prefix = f"\x1b[1;34m[--(\x1b[1;37;41mroot@OVERLOADSYSTEM\x1b[0m\x1b[1;34m)-[\x1b[1;37m{status}\x1b[1;34m]\n\x1b[1;34m--\x1b[1;37m# \x1b[0m"
+            kali_prefix = f"\x1b[1;34m[--(\x1b[1;37;41mroot@522SYSTEM\x1b[0m\x1b[1;34m)-[\x1b[1;37m{status}\x1b[1;34m]\n\x1b[1;34m--\x1b[1;37m# \x1b[0m"
             prompt = input(kali_prefix).strip()
             if not prompt: continue
             parts = prompt.split(); cmd = parts[0].upper()
