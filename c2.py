@@ -178,7 +178,7 @@ def get_url_info(url, token):
 # ==================== TAMPILAN MENU & ANSI ====================
 
 def show_ansi_art():
-    print("\x1b[1;34m         [ https://t.me/+VP7cK9_P7jE4ZjBl ] | Welcome to Stresser Panel | Owner: @OverloadServer | Update v7.0\x1b[0m")
+    print("\x1b[1;34m         [ xxxxxxxxxxx ] | Welcome to Stresser Panel | =Privatetoo | Update v7.0\x1b[0m")
     print(f"""\x1b[31m
                                            .                                                      .
         .n                   .                 .                  n.
@@ -188,7 +188,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
  9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
   `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-    `9XXXXXXXXXXXP' `9XX'   "t.me/OverloadServer"   `XXP' `9XXXXXXXXXXXP'
+    `9XXXXXXXXXXXP' `9XX'   "Privatetoo"   `XXP' `9XXXXXXXXXXXP'
 \x1b[1;37m        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
                         )b.  .dbo.dP'`v'`9b.odb.  .dX(
                       ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
@@ -201,7 +201,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                               X. 9  `   '  P )X
                               `b  `       '  d'
                                `             '
-                            O V E R L O A D   C 2\x1b[0m""")
+                            Privatetoo  C 2\x1b[0m""")
 
 def show_main_menu():
     show_ansi_art()
