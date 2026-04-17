@@ -396,7 +396,7 @@ proxy_urls = [
     "https://raw.githubusercontent.com/databay-labs/free-proxy-list/refs/heads/master/socks5.txt",
     "https://raw.githubusercontent.com/databay-labs/free-proxy-list/refs/heads/master/https.txt",
     "https://raw.githubusercontent.com/databay-labs/free-proxy-list/refs/heads/master/http.txt",
-    "https://raw.githubusercontent.com/zloi-user/hideip.me/refs/heads/master/connect.txt",
+    "https://raw.githack.com/zloi-user/hideip.me/main/connect.txt",
     "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/refs/heads/master/https.txt",
     "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/refs/heads/master/socks4.txt",
     "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/refs/heads/master/socks5.txt",
